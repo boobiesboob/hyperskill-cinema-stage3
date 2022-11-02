@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Cinema {
-    public static void createCinemaHall(int row, int cal, boolean soldSeat) {
+    public static void createCinemaHall(int row, int col, boolean soldSeat) {
         System.out.println("Cinema:");
         for (int i = 0; i < col; i++) {
             System.out.println();
