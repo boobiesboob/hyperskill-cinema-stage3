@@ -2,9 +2,9 @@ import java.util.Scanner;
 
 public class Cinema {
     private static Scanner scanner = new Scanner(System.in);
-    private static int PREMIUM_SEAT_PRICE = 10;
-    private static int ECONOMY_SEAT_PRICE = 8;
-    private static int SEATS_MERIDIAN = 60;
+    private static final int PREMIUM_SEAT_PRICE = 10;
+    private static final int ECONOMY_SEAT_PRICE = 8;
+    private static final int SEATS_MERIDIAN = 60;
     private static int hallRows;
     private static int hallColumns;
     private static int boughtSeatInRow;
